@@ -191,7 +191,7 @@ fetch('https://randomuser.me/api/')
             text1.innerHTML = 'Name:';
             text2.innerHTML = 'Gender:';
             text3.innerHTML = 'Age:';
-            text4.innerHTML = 'Nacionality:';
+            text4.innerHTML = 'NAL:';
 
             tfilled[0].innerHTML = person.name.first + ' ' + person.name.last;
             tfilled[1].innerHTML = person.gender;
