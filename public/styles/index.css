@@ -1,0 +1,519 @@
+* {
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 735px) {
+    main {
+        position: relative;
+        width: auto;
+    }
+
+    #b-img {
+        position: relative;
+        width: 100%;
+    }
+
+    #b-img-mid {
+        display: none;
+    }
+
+    #b-img-max {
+        display: none;
+    }
+
+    .pf-img {
+        position: absolute;
+        top: 3.13%;
+        left: 20.05%;
+        border-radius: 50%;
+        width: 58%;
+        border: solid 4px black;
+    }
+
+    .nav-bar {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0);
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 0%;
+        width: 100%;
+        height: 60px;
+    }
+
+    .i-pf {
+        position: absolute;
+        left: 26%;
+        top: -50%;
+        color: black;
+        border-radius: 50%;
+    }
+
+    .i-pf {
+        text-decoration: underline;
+    }
+
+    .i-loc {
+        color: rgba(0, 0, 0, 0.51);
+        position: absolute;
+        left: 44%;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 50%;
+    }
+
+    .i-at {
+        color: rgba(0, 0, 0, 0.51);
+        left: 62%;
+        top: -50%;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 50%;
+    }
+
+    .material-symbols-outlined {
+        border-radius: 50%;
+        margin: 0px;
+    }
+
+    .nav-bar span {
+        font-size: 260%;
+        font-weight: 670;
+        margin: 6%;
+    }
+
+    #content-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+        padding: 2%;
+        border: solid black 4px;
+        width: 100%;
+        height: auto;
+        font-size: 160%;
+        font-weight: 670;
+    }
+
+
+    #content-box h3 {
+        display: none;
+
+    }
+
+
+    .icon-text {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 24%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #content-box span {
+        position: relative;
+        width: 30%;
+        padding: 0%;
+        margin-top: 17%;
+        font-size: 120%;
+        font-weight: 670;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .text1, .text2, .text3, .text4 {
+        position: relative;
+        width: 67%;
+        text-align: left;
+        font-size: 120%;
+        font-weight: 670;
+
+    }
+
+    .t-filled {
+
+        text-align: left;
+        width: 60%;
+        font-family: 'Zilla Slab Highlight', cursive;
+        font-size: larger;
+    }
+
+    .titleI {
+        display: none;
+    }
+
+    .titleL {
+        display: none;
+    }
+
+    .titleC {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1110px) {
+    main {
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .material-symbols-outlined {
+        width: 30%;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    #b-img {
+        display: none;
+    }
+
+    #b-img-mid {
+        position: relative;
+        background: white;
+        width: 100%;
+    }
+
+    #b-img-max {
+        display: none;
+    }
+
+    .pf-img {
+        position: absolute;
+        top: 2.13%;
+        left: 10.05%;
+        border-radius: 50%;
+        width: 22%;
+        border: solid 4px black;
+
+    }
+
+    .nav-bar {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-top: 10px;
+        width: 100%;
+        height: 90px;
+    }
+
+    .nav-bar span {
+        font-size: 150%;
+        font-weight: 670;
+        margin: 6%;
+        text-align: right;
+    }
+
+    #content-box {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+        padding: 2%;
+        border: solid black 4px;
+        width: 95%;
+        font-size: 160%;
+        font-weight: 670;
+    }
+
+    .icon-text {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 24%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #content-box span {
+        position: relative;
+        padding: 0%;
+        font-size: 120%;
+        font-weight: 670;
+        width: 25%;
+        margin-top: 7%;
+        margin-left: 5%;
+        justify-content: center;
+    }
+
+    .text1, .text2, .text3, .text4 {
+        position: relative;
+        text-align: left;
+        width: 62%;
+        height: 50px;
+        font-size: auto;
+    }
+
+    .t-filled {
+        width: 60%;
+        text-align: center;
+        font-family: 'Zilla Slab Highlight', cursive;
+        font-size: larger;
+    }
+
+    #content-box h3 {
+        display: none;
+
+    }
+
+    .material-symbols-outlined {
+        border-radius: 50%;
+        margin: 0px;
+    }
+
+
+    .titleI {
+        display: block;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+    }
+
+    .titleL {
+        display: block;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+    }
+
+    .titleC {
+        display: block;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+    }
+
+
+
+    .infotitle {
+        color: white;
+    }
+
+    .i-pf {
+        position: relative;
+        color: black;
+        align-items: center;
+        vertical-align: middle;
+        width: 30%;
+        display: flex;
+        font-size: xx-large;
+        font-weight: 700;
+    }
+
+    .i-loc {
+        position: relative;
+        width: 30%;
+        background-color: rgba(255, 255, 255, 0);
+        display: flex;
+        color: rgba(0, 0, 0, 0.51);
+        flex-wrap: wrap;
+        font-size: xx-large;
+        font-weight: 700;
+        border-radius: 50%;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .i-at {
+        position: relative;
+        border-radius: 50%;
+        width: 30%;
+        color: #00000082;
+        display: flex;
+        font-size: xx-large;
+        font-weight: 700;
+        flex-wrap: wrap;
+        align-items: center;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (min-width: 1110px) {
+    main {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #b-img {
+        display: none;
+    }
+
+    #b-img-mid {
+        display: none;
+    }
+
+    #b-img-max {
+        position: absolute;
+        width: 30%;
+    }
+
+    .pf-img {
+        position: absolute;
+        top: 6.05%;
+        left: 6.05%;
+        border-radius: 50%;
+        width: 18%;
+        border: solid 4px black;
+
+    }
+
+    .nav-bar {
+        position: absolute;
+        top: 54%;
+        left: 3.5%;
+        background-color: rgba(255, 255, 255, 0);
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-top: 10px;
+        width: 30%;
+        height: 320px;
+    }
+
+    .nav-bar span {
+        font-size: 150%;
+        font-weight: 670;
+        margin: 6%;
+        text-align: right;
+    }
+
+    .i-pf {
+        position: relative;
+        color: black;
+        align-items: center;
+        vertical-align: middle;
+        width: 100%;
+        height: 33%;
+        display: flex;
+        font-size: xx-large;
+        font-weight: 700;
+    }
+
+    .i-loc {
+        position: relative;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+        color: #00000082;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: xx-large;
+        font-weight: 700;
+        border-radius: 50%;
+        height: 31%;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .i-at {
+        position: relative;
+        border-radius: 50%;
+        color: rgba(0, 0, 0, 0.51);
+        width: 100%;
+        display: flex;
+        font-size: xx-large;
+        font-weight: 700;
+        height: 34%;
+        flex-wrap: wrap;
+        align-items: center;
+        vertical-align: middle;
+    }
+
+    .titleI {
+        display: block;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+    }
+
+    .titleL {
+        display: block;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+    }
+
+    .titleC {
+        display: block;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+    }
+
+    #content-box {
+        position: relative;
+        left: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-family: 'Zilla Slab', serif;
+        text-align: left;
+        padding: 2%;
+        margin-top: 1%;
+        margin-left: 50px;
+        border: solid black 4px;
+        width: 66%;
+        min-height: 95vh;
+        height: 100%;
+        font-size: 160%;
+        font-weight: 670;
+    }
+
+    #content-box h3 {
+        display: none;
+
+    }
+
+    .icon-text {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 24%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .t-filled {
+        min-width: 59%;
+        text-align: left;
+        font-family: 'Zilla Slab Highlight', cursive;
+        font-size: 40px;
+    }
+
+    #content-box span {
+        position: relative;
+        padding: 0%;
+        font-size: 40px;
+        font-weight: 670;
+        width: 20%;
+        height: 80%;
+        margin-top: 17%;
+
+    }
+
+    .text1, .text2, .text3, .text4 {
+        position: relative;
+        text-align: center;
+        width: 67%;
+        height: 80%;
+        font-size: 40px;
+    }
+
+}
