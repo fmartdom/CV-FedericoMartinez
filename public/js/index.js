@@ -161,10 +161,10 @@ fetch('https://randomuser.me/api/')
 
         pimg.src = person.picture.large;
 
-        tfilled[0].innerHTML = person.location.street.number + ', ' + person.location.street.name;
-        tfilled[1].innerHTML = person.location.city;
-        tfilled[2].innerHTML = person.location.state;
-        tfilled[3].innerHTML = person.location.country;
+            tfilled[0].innerHTML = person.name.first + ' ' + person.name.last;
+            tfilled[1].innerHTML = person.gender;
+            tfilled[2].innerHTML = person.dob.age;
+            tfilled[3].innerHTML = person.nat;
 
         //Click on Info Text.
 
