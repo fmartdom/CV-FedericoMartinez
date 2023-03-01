@@ -1,7 +1,7 @@
 <h1 align="center"> CV with random people information. </h1>
 Link https://fmartdom.github.io/CV-FedericoMartinez/
 <h4>Resume.</h4>
-<p> This resposive proyect was made to complete successfully the 'Primeros pasos del Desarrollo Web' course. It includes technologies such as HTML, CSS and JAVASCRIPT, and semantic web, the consume of rest API implementing promises and asynchronous JavaScript. The whole proyect was made by me from the desing, prototyping, vectors, pictures to code.</p><br>
+<p> This responsive project was created to successfully complete the 'Primeros pasos del Desarrollo Web' course. It includes technologies such as HTML, CSS, and JavaScript, as well as semantic web concepts and the consumption of REST APIs through the implementation of promises and asynchronous JavaScript. The entire project was created by me, from design and prototyping to creating vectors, images, and code.</p><br>
 <h4> Prototype </h4>
 ![INFO API_1](https://user-images.githubusercontent.com/122109876/211169170-d1b22045-5522-4e69-a40c-5671ca537100.jpg)
 ![INFO API_2](https://user-images.githubusercontent.com/122109876/211169012-f15394f4-9400-4d74-a32a-239e48a69f5d.jpg)
